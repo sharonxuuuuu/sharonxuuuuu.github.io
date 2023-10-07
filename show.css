@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1600px;
+    min-width: 1200px;
+    margin: 0 auto;
+    background-color: #e4e1e1;
+}
+
+li {
+    list-style: none;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.wrapper .nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wrapper .nav h2 {
+    display: inline-block;
+    margin: 20px 5px;
+    font-size: 100px;
+  
+    border-bottom: 5px solid #000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main h3 {
+    font-size: 50px;
+    padding-left: 25px;
+}
+
+.main {
+    width: 100%;
+}
+
+.main ul li {
+    float: left;
+    width: 23%;
+    height: auto;
+    margin: 20px 1%;
+    overflow: hidden;
+}
+
+.main ul li img {
+    width: 100%;
+}
+
+.main ul li p {
+    font-size: 18px;
+}
